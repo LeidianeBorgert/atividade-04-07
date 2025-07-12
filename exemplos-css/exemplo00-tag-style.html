@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Não utilizar</title>
+    <style>
+        @font-face {
+            font-family: League;
+            src: url("assets/League.otf");
+        }
+
+        body {
+            background-color: darkblue;
+            /* Má pratica utilizar o nome da cor*/
+            /*rgb(0..255, 0..255, 0..255) Red Green Blue*/
+            background-color: #0008b0;
+            /*hexadecimal (#[0-9A-F] #16opçoes{6} #16opçoes{3}*/
+            background-color: #0008b0;
+            /*rgb(0, 0, 139);*/
+        }
+
+        h1 {
+            color: #fff;
+            text-transform: uppercase;
+            text-align: center;
+            font-family: 'League', 'Arial';
+
+
+        }
+
+        /*muda a cor do texto quando passa o mouse por cima*/
+        h1:hover {
+            color: #ca1616;
+        }
+
+        img {
+            border-top-style: solid;
+            border-top-color: #800080;
+            border-top-width: 5px;
+
+            border-right-color: rgb(0, 100, 0);
+            border-right-width: 8px;
+            border-right-style: dashed;
+
+            border-bottom-width: 10px;
+            border-bottom-color: rgb(201, 81, 101);
+            border-bottom-style: groove;
+
+            border-left-color: rgb(217, 217, 0);
+            border-left-width: 14px;
+            border-left-style: ridge;
+
+            opacity: 0.9;
+            transition: transform 1s;
+        }
+        img:hover{
+            opacity: 1;
+            transform: scaleX(0.8) scaleY(0.8);
+            transform: scale(0.8); 
+        }
+        
+        /* # serve para selecionar elemento que contem o id 
+        exemplo:<img id="banner"  scr="minha-imagem.png">
+        #banner {
+                border-left-color:yellow
+        } 
+        */
+        p#primeiro{
+            color:#adff2f;
+        }
+        p#segundo{
+            color: #ff8c00;
+        }
+        p#terceiro{
+            color: #4169e1;
+        }
+        p#quarto{
+            color: #a9a9a9;
+        }
+        p#quinto{
+            color: #00ced1;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Motivos de não jogar LOL</h1>
+    <p id="primeiro">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Deleniti fuga deserunt veniam blanditiis
+        sed quibusdam
+        perferendis,aspernatur dolorum, eum omnis corporis nisi tempore pariatur. Voluptas ullam ducimus doloribus
+        fugiat dolores?</p>
+    <p id="segundo">Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus quos magni hic accusamus
+        molestiae distinctio facilis nostrum, voluptatum reiciendis quia, aperiam alias quaerat, corrupti quis a
+        assumenda repudiandae vero inventore!Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tenetur non ut
+        commodi ullam quasi? Quae earum tenetur
+        maiores numquam ab minus modi fuga fugit perferendis praesentium animi, laudantium cupiditate similique!</p>
+    <p id="terceiro">Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti in dolorum maiores nesciunt
+        exercitationem laboriosam eligendi ad vel perferendis, fugit, esse nisi ipsum vitae? Nam dolorum nulla impedit
+        eos qui.Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tenetur non ut commodi ullam quasi? Quae earum
+        tenetur
+        maiores numquam ab minus modi fuga fugit perferendis praesentium animi, laudantium cupiditate similique!</p>
+    <p id="quarto">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Facilis consectetur quo debitis accusantium
+        aut suscipit, expedita eius sunt atque culpa quaerat nisi dolores maiores, quia reiciendis qui officiis rerum
+        vero.Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tenetur non ut commodi ullam quasi? Quae earum
+        tenetur
+        maiores numquam ab minus modi fuga fugit perferendis praesentium animi, laudantium cupiditate similique!</p>
+    <p id="quinto">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo expedita nemo dolorum ut architecto est
+        autem, accusamus accusantium sunt molestias tenetur libero aperiam eaque dolores dignissimos quod. Minus, cumque
+        repellendus!Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tenetur non ut commodi ullam quasi? Quae
+        earum tenetur
+        maiores numquam ab minus modi fuga fugit perferendis praesentium animi, laudantium cupiditate similique!</p>
+
+    <<img src="https://picsum.photos/id/1025/600/400" alt="">
+
+
+
+
+
+
+
+
+</body>
+
+</html>
